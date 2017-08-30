@@ -10,11 +10,11 @@ body{
 
 .caja2{
     width: 45%;
-    height: 700px;
+    height: 640px;
     background-color: white;
     float: left;
     margin-left: 29%;
-    margin-top: 10%;
+    margin-top: 7%;
     border-radius: 10px;
  
 }
@@ -32,11 +32,11 @@ body{
 
 .icon-camera{
     font-size: 25px;
-    color: blue;
+    color:#99ddff;
     margin-top:8.4%;
     margin-left: 36%;
     position: absolute;
-    top: 6%;
+    top: 0%;
     left:29%;
 
 
