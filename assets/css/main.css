@@ -1,39 +1,174 @@
 *{
-	margin: 0px;
-	padding: 0px;
-	outline: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+ /*   outline: 1px solid red;*/
 }
 body{
-	background-color: rgba(33, 171, 208, 0.34);;
+    font-family: 'Prociono', serif;
+    background-color: rgba(33, 171, 208, 0.34);;
 }
-
 
 .caja2{
-	width: 45%;
-	height: 770px;
-	background-color: #ccffcc;
-	position: absolute;
-	left: 29%;
-	top: 15%;
+    width: 45%;
+    height: 700px;
+    background-color: white;
+    float: left;
+    margin-left: 29%;
+    margin-top: 10%;
+    border-radius: 10px;
+ 
 }
-input{
-    width: 140px;
-    height: 20px;
-    margin: 30px;
-    font-size: 10px;
+
+ .caja2 input{
+    width: 390px;
+    height: 30px;
+    margin: 10px;
+    font-size: 16px;
     border-radius: 5px;
-   
+    margin-left: 0%;
+    padding-top: 0%; 
+    /*position: absolute;*/
 }
-/*#publicacion{
-    width: 40%;
-    height: 80%;
-}*/
+
 .icon-camera{
-    font-size: 15px;
+    font-size: 25px;
     color: blue;
+    margin-top:8.4%;
+    margin-left: 36%;
     position: absolute;
-    top: 35px;
-    left:150px;
+    top: 6%;
+    left:29%;
+
 
 }
+.perfil{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 50px;
+    padding: 8px;
+    float: left;
+}
+.public{
+    width: 568px;
+    height: 12%;
+    margin-left: 0;
+    padding-top: 4px; 
+    margin-bottom: 0; 
+    background: #ccffe5;
+    border-radius: 10px;
+}
+/*=======================MI PRIMERA CAJA =====================*/
+.div1{
+    width: 520px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.e{
+    float: left;
+    margin-top: 0px;
+    width: 60px;
+    height: 50px;
+    padding: 8px;
+}
+.gris{
+    color: #bfbfbf;
+    font-size: 80%;
+}
+.azul{
+    color: blue;
+}
+.latin{
+    font-size: 18px;
 
+}
+.ico{
+    margin-top: 2%;
+    margin-left: 40px;
+}
+.icon-undo2{
+    font-size: 20px;
+    color:#94b8b8;
+    margin-left: 10%;
+    float: left;
+
+    overflow: auto;
+}
+.icon-loop{
+    font-size: 20px;
+    color:#94b8b8;
+    margin-left: 10%;
+    overflow: auto;
+}
+.icon-heart{
+    font-size: 20px;
+    color:#94b8b8;
+    margin-left: 10%;
+    overflow: auto;
+}
+.icon-circle-down{
+    float: right;
+    margin-top: -100px;
+    margin-right: 20px;
+    color: #94b8b8;
+}
+.line{
+      height: 0.2px;
+    width: 44%;
+    overflow: auto;
+    left: 29%;
+    background-color: #f2f2f2;
+    position: absolute;
+}
+/*=================SEGUNDA CAJA============================*/
+.div2{
+    width: 520px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.stalker{
+    font-size: 18px;
+}
+.ico2{
+    margin-top: 6%;
+    margin-left: 40px;
+}
+/*=================TERCERA CAJA============================*/
+.div3{
+    width: 520px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.ico3{
+    margin-top: 6%;
+    margin-left: 40px;
+}
+
+/*=================CUARTA  CAJA==============================*/
+.div4{
+    width: 520px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.ico4{
+    margin-top: 6%;
+    margin-left: 40px;
+}
+/*====================QUINTA CAJA===============================*/
+.div5{
+    width: 520px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.ico5{
+    margin-top: 6%;
+    margin-left: 40px;
+}
