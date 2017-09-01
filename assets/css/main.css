@@ -1,0 +1,310 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+body {
+    background: aliceblue;
+}
+
+/*---------------------comienso de mi nav----------------------*/
+nav {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    padding-top: 0px;
+    background: #FFF;
+}
+.container a {
+    color: #434343;
+    text-decoration: none;
+}
+.container a{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    margin-left: 20px;
+}
+.twitter {
+    position: absolute; 
+    left: 600px;
+    font-size: 25px;
+}
+.input {
+    background-color: aliceblue;
+    position: relative;
+    left: 900px;
+    border-radius: 80px;
+    padding: 7px;
+    width: 250px;
+    height: 15px;
+}
+.icon-search {
+    position: relative;
+    left: 876px;
+    top: 5px;
+}
+nav .img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+}
+ nav .img1 {
+     border-radius: 20px;
+     padding: 8px;
+     width: 80px;
+     position: relative;
+     bottom: 50px;
+     float: right;
+     left: 40px;
+ }  
+/*----------- comienso de imagenes y iconos ------------*/
+.caja {
+    background-color: #FFF;
+    border-radius: 8px;
+    border-style: ridge;
+    color: aliceblue;
+    width: 20%;
+    height: 46%;
+    position: absolute;
+    top: 70px;
+    left: 980px;
+    z-index: -10;
+}
+.parrafo {
+    color: darkgray;
+    font-size: 20px;
+}
+.parrafo1 {
+    width: 150px;
+    height: 15px;
+    float: right;
+    position: relative;
+    bottom: 18px;
+    left: 24px;
+    color: blue;
+    font-size: 11px;
+}
+
+/*----------caja uno con imagenes y iconos--------------*/
+.caja1 {
+    background-color: #FFF;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    float: left;
+    clear: both;
+}
+.foto {
+    float: left; 
+}
+.parrafo2 {
+    color: black;
+    background-color: #fff;
+    width: 105px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 70px;
+    
+}
+
+.parrafo2 from {
+    font-size: 14px;
+    color: darkgray;
+    float: right;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.caja1  .icon-user-plus {
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 06px;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.icon-user-plus p{
+    color: black;
+    float: right;
+    border-radius: 6px;
+    clear: both;
+}
+
+/*---------------caja dos con imagenes y iconos---------------*/
+.foto1 {
+    float: left;
+}
+.caja2 {
+    background-color: #fff;
+    height: 80px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 20%;
+}
+.parrafo3 {
+    background-color: #fff;
+    color: black;
+    width: 120px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+.parrafo3 from {
+    font-size: 14px;
+    color: darkgray;
+    float: right;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.caja2  .icon-user-plus {
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 06px;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+.icon-user-plus p{
+    color: black;
+    float: right;
+    border-radius: 6px;
+    clear: both;
+}
+
+/*----------caja tres con imagenes y iconos-----------*/
+.foto2 {
+    position: relative;
+    float: left;
+}
+.caja3{
+    background-color: #fff;
+    height: 23%;
+    width: 92%;
+    float: left;
+    position: relative;
+    top: 25%;
+}
+
+.parrafo4 {
+    background-color: #fff;
+    color: black;
+    width: 140px;
+    height: 24px;
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+.parrafo4 .from {
+    font-size: 14px;
+    color: darkgray;
+    float: right;
+    position: relative;
+    top: 0px;
+}
+.icon-check-alt{
+    color: blue;
+    position: absolute;
+    left: 130px;
+    bottom: 54px;
+} 
+
+.icon-user-plus{
+    color: black;
+    float: right;
+    border-radius: 6px;
+    clear: both;
+}
+.caja3 .buton {
+    background-color: aliceblue;
+    border-radius: 14%;
+    width: 35%;
+    height: 35%;    
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.buton p {
+    float: right;
+}
+.icon-user-plus{
+    color: blue;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.icon-cross {
+    float: right;
+    color: darkgray;
+    font-size: 80%;
+}
+.amigo p{
+    color: blue;
+    height: 30px;
+    width: 200px;
+    font-size: 13px;
+    position:absolute;
+    top: 90%;
+    left: 4%;
+}
+
+/*--------------------caja cuatro de parrafos */
+.caja4 {
+    background-color: #FFF;
+    border-style: ridge;
+    color: aliceblue;
+    border-radius: 8px;
+    height: 180px;
+    width: 274px;
+    position: absolute;
+    top: 104%; 
+}
+.parrafito {
+    color: black;
+    font-size: 12px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.parrafito1 {
+    color: black;
+    font-size: 13px;
+    width: 240px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+.publicar {
+    background-color: aliceblue;
+    border-style: ridge;
+    color: aliceblue;;
+    width: 268px;
+    height: 45px;
+    position: relative;
+    top: 34px;
+}
+.publicar p {
+    font-size: 13px;
+    color: blue;
+    width: 150px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+
