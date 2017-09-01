@@ -31,9 +31,9 @@ body{
 }
 
 .icon-camera{
-    font-size: 25px;
+    font-size: 200%;
     color:#99ddff;
-    margin-top:8.4%;
+    margin-top:8.2%;
     margin-left: 36%;
     position: absolute;
     top: 0%;
@@ -50,7 +50,7 @@ body{
     float: left;
 }
 .public{
-    width: 568px;
+    width: 555px;
     height: 12%;
     margin-left: 0;
     padding-top: 4px; 
