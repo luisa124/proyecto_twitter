@@ -7,7 +7,7 @@
 body{
 	background-color: rgba(33, 171, 208, 0.34);;
 	font-family: 'Source Sans Pro', sans-serif;
-	background: linear-gradient(blue, yellow);
+	background: linear-gradient(blue, #32829e, #b0dae0);
 }
 /* Columna 1 Contenedor del usuario de la parte 01 y 02*/
 .caja1{
